@@ -1,5 +1,5 @@
 from main import *
-
+import tabulate
 
 
 def test_linear_search():
