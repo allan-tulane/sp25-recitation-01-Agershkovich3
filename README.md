@@ -65,7 +65,7 @@ The best case for linear search is that the key is the first value because the f
 - [ ] 9. The theoretical worst-case running time of linear search is $O(n)$ and binary search is $O(log_2(n))$. Do these theoretical running times match your empirical results? Why or why not?
 
 **TODO: your answer goes here**
-Yes, my results support this conclusion because although initially the binary function may take longer than the linear function for smaller n, eventually the binary function is a lot faster than the linear search and the time only increases slightly even if the number of values is multiplied by 10.
+Yes, my results support this conclusion because although initially the binary function may take longer than the linear function for smaller n, eventually the binary function is a lot faster than the linear search and the time only increases slightly even if the number of values is multiplied by 10. This is because the linear function increases linearly, and the binary search increases by log2 n. 
 
 
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
