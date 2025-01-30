@@ -74,4 +74,4 @@ Yes, my results support this conclusion because although initially the binary fu
   + For binary search? **TODO: your answer goes here**
     For binary search the complexity is a lot worse because it would be $O(n^2)$ to sort the array, then k *log(n) to actually complete the binary search. So, the total complexity is $O(n^2 + k*log(n)$, or just O(n^2).
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here**
-    For Large n, n^2 dominates kn, but we are looking for n^2 < kn, so dividing by n, n < k. Thus, sorting then using binary search is more efficient when n < k, and using linear search is more efficient when n >= k because the sorting overhead becomes so large.
+    For Large n, n^2 dominates kn, but we are looking for n^2 < kn, so dividing by n, n < k. Thus, sorting then using linear search is more efficient when n < k, and using binary search is more efficient when n >= k because the sorting overhead becomes so large.
